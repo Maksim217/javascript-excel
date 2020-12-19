@@ -22,7 +22,6 @@ export class Formula extends ExcelComponent {
   }
 
   storeChanged({ currentText }) {
-    console.log('changes currentText', currentText);
     this.$formula.text(currentText);
   }
 
